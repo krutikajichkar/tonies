@@ -2,12 +2,12 @@ import React from "react";
 
 const Header = () => {
   return (
-    <div className="relative w-full ">
+    <div className="fixed z-10 w-full bg-red-600 top-1 ">
       <svg
         viewBox="0 0 638.390625 53"
         xmlns="http://www.w3.org/2000/svg"
         preserveAspectRatio="none"
-        className="sc-bmzYkS hzoRDP relative "
+        className="sc-bmzYkS hzoRDP relative  w-full"
       >
         <path
           d="M638.390625,39.8769231 L50.9638694,52.0806223 C23.8573903,53.101494 1.05566714,31.9549309 0.0347954342,4.84845174 C0.0116005326,4.23257405 7.54767359e-17,3.61631432 0,3 L0.0914746776,3.00059741 C1.7047047,29.5515707 24.2426583,50.0869842 50.9638694,49.0806223 L50.9638694,49.0806223 L638.390625,36.8769231 L638.390625,39.8769231 Z"

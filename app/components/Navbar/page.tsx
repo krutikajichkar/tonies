@@ -2,7 +2,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className="bg-orange-50 w-full">
+    <div className="bg-orange-50 w-full absolute top-0 z-40">
         <ul className="flex gap-6 p-3 justify-end text-xs font-semibold cursor-pointer">
           <li>tonies</li>
           <li>mytonies</li>
