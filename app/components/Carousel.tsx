@@ -5,8 +5,8 @@ import Button from './Button'
 
 const Carousel: React.FC = () => {
   return (
-    <div className="bg-red-600 p-6 relative mt-20 flex justify-center">
-      <div className="flex justify-evenly items-center w-4/5 ">
+    <div className="bg-red-600 p-6 relative  flex justify-center h-[95vh] top-0">
+      <div className="flex justify-evenly items-center w-4/5 mt-14 ">
         <div className="w-[600px]">
           <h1 className="text-3xl text-white font-semibold leading-relaxed">
             Happy Kids. Happy Parents. Happy{" "}
