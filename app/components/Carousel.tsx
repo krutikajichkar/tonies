@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
-import Button from './Button'
+import Button from "./Button"
 import Image from "next/image";
 const Carousel: React.FC = () => {
   return (
