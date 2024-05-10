@@ -132,7 +132,7 @@ const Features = () => {
        <div className="mt-10 ">
        <Button btnColor="red" text="Subscribe"/>
        </div>
-       <h3 className="mt-10 w-[400px] text-center text-xs ">By clicking "Subscribe", I consent to recieve marketing communication via email. Revokable at any time, free of charge. Privacy policy.</h3>
+       <h3 className="mt-10 w-[400px] text-center text-xs ">By clicking Subscribe, I consent to recieve marketing communication via email. Revokable at any time, free of charge. Privacy policy.</h3>
       </div>
     </>
   );

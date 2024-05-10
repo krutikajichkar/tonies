@@ -11,7 +11,7 @@ const StepsSection = () => {
         </h1>
 
         <h3 className="text-lg mt-1">
-          That's right, it's as easy as 1, 2, 3...
+          That&apos;s right, it&apos;s as easy as 1, 2, 3...
         </h3>
       </div>
       <div className="flex justify-evenly mt-10 ">

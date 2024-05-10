@@ -13,7 +13,7 @@ const Carousel: React.FC = () => {
             <span className="font-bold">listening</span>
           </h1>
           <h2 className="text-white mt-3">
-            Bring hours of stories and years of joy to your little ones's life-
+            Bring hours of stories and years of joy to your little ones life-
             and improve their speech in just four months. All with Toniebox
           </h2>
           <div className="pt-10 flex items-center gap-10">

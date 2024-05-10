@@ -26,7 +26,7 @@ const RestSection = () => {
         <h3 className="w-3/4 text-center mt-1">
           Say goodbye to bright screens, scratched CDs, and complicated
           controls. With Tonies, children can ignite their imagination and
-          immerse themselves in storytelling and audio adventures. It's as
+          immerse themselves in storytelling and audio adventures. Its as
           simple as placing a tonie on the Toniebox, and the audio begins to
           play. With countless stories to hear, songs to sing, and whole worlds
           to explore, the possibilities are endless.
