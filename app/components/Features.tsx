@@ -117,22 +117,25 @@ const Features = () => {
         </div>
       </div>
 
-      <div className="flex justify-center mt-20 flex-col items-center">
+      <div className="flex justify-center mt-28 flex-col items-center">
         <h1 className="text-2xl font-semibold">
           Sign up to the tonies-newsletter and be the first one to receive any
           good news!
         </h1>
-       <div className="border-b-2 border-red-500 w-[300px] p-2">
-       <input
-          type="email"
-          placeholder="Email Address"
-          className=" outline-none mt-6 w-full "
-        />
-       </div>
-       <div className="mt-10 ">
-       <Button btnColor="red" text="Subscribe"/>
-       </div>
-       <h3 className="mt-10 w-[400px] text-center text-xs ">By clicking Subscribe, I consent to recieve marketing communication via email. Revokable at any time, free of charge. Privacy policy.</h3>
+        <div className="border-b-2 border-red-500 w-[300px] p-2">
+          <input
+            type="email"
+            placeholder="Email Address"
+            className=" outline-none mt-6 w-full "
+          />
+        </div>
+        <div className="mt-10 ">
+          <Button btnColor="red" text="Subscribe" />
+        </div>
+        <h3 className="mt-10 w-[400px] text-center text-xs ">
+          By clicking Subscribe, I consent to recieve marketing communication
+          via email. Revokable at any time, free of charge. Privacy policy.
+        </h3>
       </div>
     </>
   );

@@ -11,7 +11,7 @@ export const stepsData = [
       "https://res.cloudinary.com/tonies/image/fetch/f_auto,q_60,w_1080/https://images.ctfassets.net/l6vo76cztcax/61tmWdfeMJVXQuaBYzCty/d1b2f156af37bd11f848ebcf9a1ef524/toniebox.png",
     heading: "2. This is a Toniebox",
     description:
-      "The musical storybox that brings kids’ favourite characters to life.",
+      "The musical storybox that brings kids favourite characters to life.",
   },
   {
     image:
