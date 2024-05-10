@@ -2,6 +2,7 @@ import React from "react";
 import { BsCart } from "react-icons/bs";
 import { FaRegHeart } from "react-icons/fa6";
 import { CiPlay1 } from "react-icons/ci";
+import Image from "next/image";
 const ItemsSection = () => {
   return (
     <>
@@ -11,10 +12,11 @@ const ItemsSection = () => {
       </h1>
       <div className="flex flex-wrap gap-4 justify-center">
         <div className="w-[300px] rounded-md flex flex-col gap-2 justify-center items-center border-2 border-gray-400 relative">
-          <img
-            className="w-[300px] "
+          <Image
             src="https://res.cloudinary.com/tonies/image/fetch/f_auto,q_60,w_1080/https://images.ctfassets.net/l6vo76cztcax/q3QiyzI1bAoGS76SeM02D/6af3ae04f799116126a1d14fcba7074a/Unbenannt-1.png"
             alt=""
+            width={300}
+            height={300}
           />
           <h2 className="text-center text-lg font-semibold" >Outdoor Adventures with JJ </h2>
           <span>Cocomelon</span>
@@ -35,10 +37,12 @@ const ItemsSection = () => {
         {/* // */}
 
         <div className="w-[300px] rounded-md flex flex-col gap-2 justify-center items-center border-2 border-gray-400 relative">
-          <img
-            className="w-[300px] "
+          <Image
+           
             src="https://res.cloudinary.com/tonies/image/fetch/f_auto,q_60,w_1080/https://images.ctfassets.net/l6vo76cztcax/q3QiyzI1bAoGS76SeM02D/6af3ae04f799116126a1d14fcba7074a/Unbenannt-1.png"
             alt=""
+            width={300}
+            height={300}
           />
           <h2 className="text-center text-lg font-semibold">Outdoor Adventures with JJ </h2>
           <span>Cocomelon</span>
@@ -59,10 +63,12 @@ const ItemsSection = () => {
         {/* // */}
 
         <div className="w-[300px] rounded-md flex flex-col gap-2 justify-center items-center border-2 border-gray-400 relative">
-          <img
-            className="w-[300px] "
+          <Image
+            
             src="https://res.cloudinary.com/tonies/image/fetch/f_auto,q_60,w_1080/https://images.ctfassets.net/l6vo76cztcax/q3QiyzI1bAoGS76SeM02D/6af3ae04f799116126a1d14fcba7074a/Unbenannt-1.png"
             alt=""
+            width={300}
+            height={300}
           />
           <h2 className="text-center text-lg font-semibold">Outdoor Adventures with JJ </h2>
           <span>Cocomelon</span>
@@ -83,10 +89,12 @@ const ItemsSection = () => {
         {/* // */}
 
         <div className="w-[300px] rounded-md flex flex-col gap-2 justify-center items-center border-2 border-gray-400 relative">
-          <img
-            className="w-[300px] "
+          <Image
+            
             src="https://res.cloudinary.com/tonies/image/fetch/f_auto,q_60,w_1080/https://images.ctfassets.net/l6vo76cztcax/q3QiyzI1bAoGS76SeM02D/6af3ae04f799116126a1d14fcba7074a/Unbenannt-1.png"
             alt=""
+            width={300}
+            height={300}
           />
           <h2 className="text-center text-lg font-semibold">Outdoor Adventures with JJ </h2>
           <span>Cocomelon</span>

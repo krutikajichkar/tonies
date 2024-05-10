@@ -1,6 +1,7 @@
 import React from "react";
 import { stepsData as steps } from "../utils/StepsData";
 import Button from "./Button";
+import Image from "next/image";
 const StepsSection = () => {
   return (
     <div>
@@ -20,7 +21,7 @@ const StepsSection = () => {
               key={i}
               className="flex flex-col items-center justify-center w-[25%]  "
             >
-              <img src={s.image} alt="" className="w-3/4" />
+              <Image src={s.image} alt="" width="500" height="500" />
               <h2 className="text-2xl font-semibold mt-4">{s.heading}</h2>
               <p className="text-lg mt-2 text-center">{s.description}</p>
             </div>
