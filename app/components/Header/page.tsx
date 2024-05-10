@@ -1,5 +1,7 @@
 import React from "react";
-
+import { FaRegHeart } from "react-icons/fa6";
+import { BsCart } from "react-icons/bs";
+import { FaRegUserCircle } from "react-icons/fa";
 const Header = () => {
   return (
     <div className="fixed z-10 w-full  top-1 ">
@@ -19,7 +21,7 @@ const Header = () => {
         ></path>
       </svg>
       
-      <div className="flex justify-between w-full items-center px-44 py-10 absolute top-0">
+      <div className="flex justify-between w-full items-center px-44 py-12 absolute top-0">
         <div className="flex gap-8 items-center">
           <span
             className="sc-cgjDci jfzxaS image-v2-container"
@@ -35,19 +37,26 @@ const Header = () => {
               className="sc-djTQaJ cmmuMh"
             />
           </span>
-          <ul className="flex gap-8 text-xl font-medium cursor-pointer">
+          <ul className="flex gap-8 text-xl font-medium cursor-pointer items-center">
             <li className=" hover:text-red-600">Toniebox</li>
             <li className=" hover:text-red-600">Tonies</li>
-            <li className=" hover:text-red-600">Audio Content</li>
+            <div className="relative">
+            <li className=" hover:text-red-600 ">Audio Content</li>
+            <span className="bg-red-600 text-white px-2 text-xs rounded-full absolute -top-3 right-0">NEW</span>
+            </div>
             <li className=" hover:text-red-600">Accessories</li>
-            <li className=" hover:text-red-600">Bundles</li>
+            <div className="relative">
+            <li className=" hover:text-red-600 ">Bundles</li>
+            <span className="bg-red-600 text-white px-2 text-xs rounded-full absolute -top-3 right-0">SAVE</span>
+            </div>
           </ul>
+         
         </div>
         <div>
             <ul className="flex gap-8 text-xl font-medium cursor-pointer">
-                <li className=" hover:text-red-600">Heart</li>
-                <li className=" hover:text-red-600">Cart</li>
-                <li className=" hover:text-red-600">Login</li>
+                <li className=" hover:text-red-600 text-2xl"><FaRegHeart /></li>
+                <li className=" hover:text-red-600 text-2xl"><BsCart/></li>
+                <li className=" hover:text-red-600 text-2xl"><FaRegUserCircle/></li>
             </ul>
         </div>
       </div>

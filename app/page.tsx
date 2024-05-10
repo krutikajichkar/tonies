@@ -4,6 +4,7 @@ import DiscoverSection from "./components/DiscoverSection";
 import ItemsSection from "./components/ItemsSection";
 import StepsSection from "./components/StepsSection";
 import Features from "./components/Features";
+import RestSection from "./components/RestSection";
 
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
    <StepsSection/>
    <ItemsSection/>
    <Features/>
+   <RestSection/>
    </div>
   );
 }
